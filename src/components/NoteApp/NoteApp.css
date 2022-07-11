@@ -1,0 +1,155 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+:root {
+  --black: #0c0c0c;
+  --white: #fff;
+  --grey: rgb(99, 96, 96);
+  --lighterGrey: rgb(85, 82, 82);
+  --time: rgb(87, 84, 84);
+  --realGrey: #aaaba8;
+  --eachBg: #1b1b1b;
+}
+
+.note {
+  padding: 3%;
+  background-color: #0c0c0c;
+  height: 100%;
+  color: var(--white);
+  position: relative;
+}
+
+.note__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.note__title i {
+  padding-right: 20px;
+  font-size: 3rem;
+}
+
+.note__title h1 {
+  text-align: left;
+  font-weight: 800;
+}
+
+.search__box {
+  display: flex;
+  width: 100%;
+  background-color: var(--eachBg);
+  align-items: center;
+  border-radius: 80px;
+  padding: 0 4%;
+}
+
+.search__box img {
+  width: 20px;
+  height: 20px;
+}
+
+.search__box input {
+  padding: 18px;
+  background-color: var(--eachBg);
+  border: none;
+  color: var(--realGrey);
+  font-size: 1rem;
+}
+
+.search__box ::placeholder {
+  color: var(--realGrey);
+  font-size: 1rem;
+}
+
+.note__body {
+  margin-top: 15px;
+  height: auto;
+  text-align: left;
+  background-color: var(--eachBg);
+  padding: 10px 10px 10px 15px;
+  border-radius: 20px;
+}
+
+.title {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.about {
+  color: var(--white);
+  font-weight: 400;
+}
+
+.time {
+  color: var(--realGrey);
+  font-weight: 500;
+  font-size: 0.7rem;
+}
+
+i {
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: inherit;
+}
+
+form {
+  height: 100vh;
+  width: 90vw;
+}
+
+form i {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 15px;
+  color: var(--realGrey);
+  padding-bottom: 30px;
+}
+
+.add-form h1 {
+  margin: 0;
+}
+
+.add-form-input {
+  background-color: inherit;
+  border: none;
+  border-bottom: 1px solid var(--eachBg);
+  color: var(--realGrey);
+  width: 90%;
+  height: 4vh;
+  padding-bottom: 10px;
+}
+
+.add-form textarea {
+  background-color: inherit;
+  border: none;
+  color: var(--realGrey);
+  width: 90%;
+  padding: 10px 0 0 0;
+  height: 50%;
+  resize: none;
+  outline: none;
+}
+
+button {
+  padding: 10px 40px;
+  background-color: var(--realGrey);
+  border: none;
+  margin-top: 40px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.trash-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bi-trash3-fill {
+  padding-right: 10px;
+  font-size: 1.1rem;
+}
+
+a {
+  text-decoration: none;
+}
